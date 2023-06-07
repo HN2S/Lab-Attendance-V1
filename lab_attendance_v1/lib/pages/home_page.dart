@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab_attendance_v1/pages/qr_scanner.dart';
 
 import '../components/my_button.dart';
 
@@ -18,8 +19,8 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: MyButton(
           onTap: () {
-            // Navigator.push(context,
-            //     MaterialPageRoute(builder: (context) => const QRViewExample()));
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const QRViewExample()));
           },
         ),
       ),
